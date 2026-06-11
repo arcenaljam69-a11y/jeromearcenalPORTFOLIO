@@ -3,351 +3,126 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jerome Arcenal | UI/UX Designer</title>
+<title>Jerome Portfolio</title>
 
 <link rel="stylesheet" href="style.css">
-
-<link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
-<nav>
-    <div class="logo">UX</div>
+<!-- HOME -->
+<section class="section active" id="home">
+<div class="left">
+    <p>Hello! I am</p>
+    <h1>Jerome C. Arcenal</h1>
+    <h2>UI/UX Designer</h2>
 
-    <ul>
-    <li><a href="#home">Home</a></li>
-    <li><a href="#about">About Me</a></li>
-    <li><a href="#skills">SKILLS</a></li>
-    <li><a href="#education">EDUCATION</a></li>
-    <li><a href="#services">SERVICES</a></li>
-    <li><a href="#projects">PROJECTS</a></li>
-    <li><a href="#feedback">FEEDBACK</a></li>
-    <li><a href="#contact">CONTACT</a></li>
-</ul>
-</nav>
+    <p class="desc">
+        Passionate UI/UX Designer with experience in school projects and design systems.
+    </p>
 
-<section id="home" class="hero">
-
-<div class="hero-content">
-
-<div class="hero-text">
-<h1>HELLO! I AM</h1>
-<h1 class="name">JEROME C. ARCENAL!</h1>
-
-<h3>UI/UX DESIGNER</h3>
-
-<p>
-A passionate UI/UX Designer with experience working on school projects and
-creating user-friendly digital experiences.
-</p>
-
-<div class="hero-buttons">
-<a href="#about" class="btn">GET STARTED</a>
-<a href="https://drive.google.com/uc?export=download&id=1XkM44zrlrUWxksz12b2Go_pJb-dkwdjb"
-   class="btn-outline"
-   target="_blank">
-   DOWNLOAD CV
-</a>
-</div>
-
-</div>
-
-<div class="hero-image">
-    <img src="images/profile.jpg" alt="Jerome Arcenal">
-</div>
-
-</div>
-
-</section>
-
-<section id="about">
-
-<div class="about-container">
-
-<div class="about-image">
-    <img src="images/about-photo.jpg" alt="About Jerome">
-</div>
-
-<div class="about-content">
-
-<h2>About Me</h2>
-
-<p>
-My journey into technology began with a curiosity about how systems work...
-</p>
-
-<p>
-My professional experiences, including serving as an On-the-Job Trainee...
-</p>
-
-<p>
-Today, I focus on creating user-friendly and visually engaging digital experiences...
-</p>
-
-<div class="next-button">
-    <a href="#skills" class="btn">
-        Next →
+    <a class="btn" href="https://drive.google.com/uc?export=download&id=1XkM44zrlrUWxksz12b2Go_pJb-dkwdjb">
+        Download CV
     </a>
 </div>
-<section id="skills">
 
-<h2>Skills & Qualifications</h2>
-
-<h3>Skills</h3>
-
-<div class="skills-grid">
-    <div class="card">UI/UX Design</div>
-    <div class="card">Wireframing</div>
-    <div class="card">Prototyping</div>
-    <div class="card">Analytical Thinking</div>
+<div class="right">
+    <img src="images/profile-home.png">
 </div>
 
-<h3>Educational Background</h3>
-
-<div class="education-grid">
-
-    <div class="card">
-        <h4>College</h4>
-        <p>BS Information Systems<br>Davao del Norte State College</p>
-    </div>
-
-    <div class="card">
-        <h4>Senior High School</h4>
-        <p>ICT - Computer Systems Servicing</p>
-    </div>
-
+<div class="nav">
+    <button onclick="next()">Next →</button>
 </div>
-
-<h3>Certificates</h3>
-
-<div class="certificate-grid">
-
-    <div class="certificate-card">
-        <img src="certificate1.jpg" alt="Certificate">
-        <p>Certificate Placeholder</p>
-    </div>
-
-    <div class="certificate-card">
-        <img src="certificate2.jpg" alt="Certificate">
-        <p>Certificate Placeholder</p>
-    </div>
-
-</div>
-
-</section>
-</div>
-
-</div>
-
 </section>
 
-<section id="skills">
-
-<h2>SKILLS</h2>
-
-<div class="skills-grid">
-
-<div class="card">Designer</div>
-<div class="card">Analytical Thinking</div>
-<div class="card">Budget Management</div>
-<div class="card">Wireframing</div>
-<div class="card">Prototyping</div>
-<div class="card">Interaction Design</div>
-
-</div>
-    
-
-</section>
-    
-    <section id="education">
-
-<h2>EDUCATIONAL BACKGROUND</h2>
-
-<div class="education-grid">
-
-<div class="card">
-<h3>College</h3>
-<p>
-Bachelor of Science in Information Systems
-<br>
-Davao del Norte State College
-<br>
-2024 - Present
-</p>
+<!-- ABOUT -->
+<section class="section" id="about">
+<div class="left">
+    <img src="images/profile-about.png">
 </div>
 
-<div class="card">
-<h3>Senior High School</h3>
-<p>
-ICT - Computer Systems Servicing
-<br>
-A.L. Navarro National High School
-<br>
-2022 - 2024
-</p>
+<div class="right">
+    <h2>About Me</h2>
+    <p>
+        I studied Information Systems at Davao del Norte State College and specialize in UI/UX design.
+    </p>
 </div>
 
-<div class="card">
-<h3>Junior High School</h3>
-<p>
-A.L. Navarro National High School
-<br>
-2018 - 2022
-</p>
+<div class="nav">
+    <button onclick="prev()">← Back</button>
+    <button onclick="next()">Next →</button>
 </div>
-
-<div class="card">
-<h3>Elementary</h3>
-<p>
-G.L Dondoy Elementary School
-<br>
-2012 - 2018
-</p>
-</div>
-
-</div>
-
 </section>
 
-    <section id="services">
+<!-- SKILLS -->
+<section class="section" id="skills">
+<h2>Skills</h2>
+<p>UI/UX Design, Wireframing, Prototyping, Interaction Design</p>
 
-<h2>SERVICES</h2>
-
-<div class="services-grid">
-
-<div class="card">
-
-<h3>UI/UX DESIGN</h3>
-
-<p>
-Creating clean, modern, and user-friendly interfaces
-for websites and mobile applications using Figma.
-Focused on usability and visual appeal.
-</p>
-
+<div class="nav">
+    <button onclick="prev()">← Back</button>
+    <button onclick="next()">Next →</button>
 </div>
-
-<div class="card">
-
-<h3>WIREFRAMING & PROTOTYPING</h3>
-
-<p>
-Creating wireframes, user flows, and interactive
-prototypes to visualize website and application
-structures before development.
-</p>
-
-</div>
-
-</div>
-
 </section>
 
-<section id="projects">
+<!-- CERTIFICATES -->
+<section class="section" id="certificates">
+<h2>Certificates</h2>
 
+<img src="images/cert1.jpg">
+<img src="images/cert2.jpg">
+
+<div class="nav">
+    <button onclick="prev()">← Back</button>
+    <button onclick="next()">Next →</button>
+</div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section" id="education">
+<h2>Education</h2>
+
+<p>BS Information Systems - DNSC (2024-Present)</p>
+<p>ICT CSS - Senior High (2022-2024)</p>
+<p>Junior High - A.L Navarro NHS</p>
+<p>Elementary - G.L Dondoy ES</p>
+
+<div class="nav">
+    <button onclick="prev()">← Back</button>
+    <button onclick="next()">Next →</button>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="projects">
 <h2>Projects</h2>
 
-<div class="project-card">
+<img src="images/project1.jpg">
+<img src="images/project2.jpg">
 
-<img src="images/project1.jpg" alt="Inventory Tracking System">
-
-<div class="project-content">
-
-<h3>Inventory & Tracking System</h3>
-
-<p>
-A group project designed using Figma focused on usability,
-user experience, and system organization.
-</p>
-
+<div class="nav">
+    <button onclick="prev()">← Back</button>
+    <button onclick="next()">Next →</button>
 </div>
-
-</div>
-
 </section>
 
-    <section id="feedback">
+<!-- CONTACT -->
+<section class="section" id="contact">
+<h2>Contact</h2>
 
-<h2>FEEDBACK</h2>
+<p>Email: jeromearcenal388@gmail.com</p>
+<p>Phone: 0993-598-1909</p>
 
-<div class="feedback-container">
-
-<p>
-Rate your experience and leave your feedback.
-Your Canva profile name will not be shared.
-</p>
-
-<form>
-
-<input type="text" placeholder="Your Name">
-
-<input type="email" placeholder="Email Address">
-
-<select>
-
-<option>⭐⭐⭐⭐⭐ Excellent</option>
-<option>⭐⭐⭐⭐ Very Good</option>
-<option>⭐⭐⭐ Good</option>
-<option>⭐⭐ Fair</option>
-<option>⭐ Poor</option>
-
-</select>
-
-<textarea placeholder="Write your feedback here"></textarea>
-
-<button type="submit">
-Submit Feedback
-</button>
-
-</form>
-
+<div class="social">
+<a href="https://facebook.com/Cruz.Arcenal">Facebook</a>
+<a href="https://instagram.com/wzwxxen">Instagram</a>
+<a href="https://linkedin.com/in/jerome-arcenal-93a334409">LinkedIn</a>
+<a href="https://github.com/jeromearcenal">GitHub</a>
 </div>
-
-</section>
-
-<section id="contact">
-
-<h2>CONTACT</h2>
-
-<p>Want to start a new project? Or just say hello.</p>
-
-<div class="social-links">
-
-<a href="https://github.com/jeromearcenal" target="_blank" class="social-btn">
-<i class="fab fa-github"></i> GitHub
-</a>
-
-<a href="https://www.facebook.com/Cruz.Arcenal/" target="_blank" class="social-btn">
-<i class="fab fa-facebook"></i> Facebook
-</a>
-
-<a href="https://www.instagram.com/wzwxxen/" target="_blank" class="social-btn">
-<i class="fab fa-instagram"></i> Instagram
-</a>
-
-<a href="https://www.linkedin.com/in/jerome-arcenal-93a334409/" target="_blank" class="social-btn">
-<i class="fab fa-linkedin"></i> LinkedIn
-</a>
-
-</div>
-
-<form>
-
-<input type="text" placeholder="Name">
-
-<input type="email" placeholder="Email Address">
-
-<textarea placeholder="Leave a Message"></textarea>
-
-<button type="submit">Submit</button>
-
-</form>
 
 </section>
 
 <script src="script.js"></script>
-
 </body>
 </html>
