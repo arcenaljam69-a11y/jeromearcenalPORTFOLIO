@@ -1,5 +1,5 @@
-const sections = document.querySelectorAll(".section");
 let index = 0;
+const sections = document.querySelectorAll(".section");
 
 function show(i){
     sections.forEach(s => s.classList.remove("active"));
