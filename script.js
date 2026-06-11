@@ -1,21 +1,21 @@
-let current = 0;
 const sections = document.querySelectorAll(".section");
+let index = 0;
 
-function show(index){
+function show(i){
     sections.forEach(s => s.classList.remove("active"));
-    sections[index].classList.add("active");
+    sections[i].classList.add("active");
 }
 
 function next(){
-    if(current < sections.length - 1){
-        current++;
-        show(current);
+    if(index < sections.length - 1){
+        index++;
+        show(index);
     }
 }
 
 function prev(){
-    if(current > 0){
-        current--;
-        show(current);
+    if(index > 0){
+        index--;
+        show(index);
     }
 }
