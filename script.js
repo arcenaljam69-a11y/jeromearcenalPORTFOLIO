@@ -1,15 +1,21 @@
-const sections = document.querySelectorAll("section");
+let current = 0;
+const sections = document.querySelectorAll(".section");
 
-window.addEventListener("scroll", () => {
-    sections.forEach(section => {
-        const top = section.getBoundingClientRect().top;
+function show(index){
+    sections.forEach(s => s.classList.remove("active"));
+    sections[index].classList.add("active");
+}
 
-        if(top < window.innerHeight - 100){
-            section.classList.add("show");
-        }
-    });
-});
+function next(){
+    if(current < sections.length - 1){
+        current++;
+        show(current);
+    }
+}
 
-sections.forEach(section=>{
-    section.classList.add("fade");
-});
+function prev(){
+    if(current > 0){
+        current--;
+        show(current);
+    }
+}
