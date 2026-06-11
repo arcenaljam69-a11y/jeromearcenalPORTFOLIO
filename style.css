@@ -73,8 +73,8 @@ nav ul li a:hover{
 }
 
 .hero-text h1{
-    font-size:70px;
-    line-height:1;
+    font-size:48px;
+    line-height:1.2;
 }
 
 .name{
@@ -100,7 +100,7 @@ nav ul li a:hover{
 }
 
 .btn{
-    background:#00d4ff;
+    background:#7c3aed;;
     color:#000;
     padding:14px 30px;
     text-decoration:none;
@@ -252,7 +252,7 @@ button{
 }
 
 .hero-text h1{
-    font-size:48px;
+    font-size:34px;
 }
 
 .hero-image img{
